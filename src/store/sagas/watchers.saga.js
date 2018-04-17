@@ -1,4 +1,4 @@
-import { takeEvery, takeLatest } from 'redux-saga/effects';
+import { takeLatest } from 'redux-saga/effects';
 import * as fromActions from '../actions';
 import { fetchPosts } from './board.saga';
 
